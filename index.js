@@ -15,39 +15,39 @@ function startGame(playerMove) {
   if (playerMove === "rock") {
     if (computerMove === "rock") {
       result = "tie";
-      computerMoveEl.innerHTML = "✊";
+      computerMoveEl.innerHTML = "✊ ✊";
     } else if (computerMove === "paper") {
       result = "lose";
-      computerMoveEl.innerHTML = "🖐";
+      computerMoveEl.innerHTML = "✊ 🖐";
     } else if (computerMove === "scissor") {
       result = "win";
-      computerMoveEl.innerHTML = "✌";
+      computerMoveEl.innerHTML = "✊ ✌";
     }
   }
 
   if (playerMove === "paper") {
     if (computerMove === "rock") {
       result = "win";
-      computerMoveEl.innerHTML = "✊";
+      computerMoveEl.innerHTML = "🖐 ✊";
     } else if (computerMove === "paper") {
       result = "tie";
-      computerMoveEl.innerHTML = "🖐";
+      computerMoveEl.innerHTML = "🖐 🖐";
     } else if (computerMove === "scissor") {
       result = "lose";
-      computerMoveEl.innerHTML = "✌";
+      computerMoveEl.innerHTML = "🖐 ✌";
     }
   }
 
   if (playerMove === "scissor") {
     if (computerMove === "rock") {
       result = "lose";
-      computerMoveEl.innerHTML = "✊";
+      computerMoveEl.innerHTML = "✌ ✊";
     } else if (computerMove === "paper") {
       result = "win";
-      computerMoveEl.innerHTML = "🖐";
+      computerMoveEl.innerHTML = "✌ 🖐";
     } else if (computerMove === "scissor") {
       result = "tie";
-      computerMoveEl.innerHTML = "✌";
+      computerMoveEl.innerHTML = "✌ ✌";
     }
   }
 
